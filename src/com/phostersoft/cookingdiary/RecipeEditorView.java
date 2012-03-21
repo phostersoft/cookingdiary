@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -97,6 +98,16 @@ public class RecipeEditorView extends Activity{
 			Toast toast = Toast.makeText(this, R.string.recipe_error_notitle, 5);
 			toast.show();
 			return false;
+		}
+		Scanner scanner = new Scanner(tagsText.getText().toString().trim());
+		scanner.useDelimiter(",");
+		while (scanner.hasNext()) {
+			String tag = scanner.next();
+			if(tag.trim().isEmpty()) {
+				Toast toast = Toast.makeText(this, R.string.recipe_error_tags, 5);
+				toast.show();
+				return false;
+			}
 		}
 		return true;
 	}

@@ -67,16 +67,17 @@ public final class R {
         public static final int view_recipe_menu=0x7f060002;
     }
     public static final class string {
-        public static final int add_photo=0x7f040012;
+        public static final int add_photo=0x7f040013;
         public static final int app_name=0x7f040001;
         public static final int discard=0x7f040010;
         public static final int hello=0x7f040000;
         public static final int main_newrecipe=0x7f040002;
         public static final int main_recipelist=0x7f040003;
         public static final int main_taglist=0x7f040004;
-        public static final int recipe_editor=0x7f040014;
+        public static final int recipe_editor=0x7f040015;
         public static final int recipe_error_notitle=0x7f040011;
-        public static final int recipe_list=0x7f040013;
+        public static final int recipe_error_tags=0x7f040012;
+        public static final int recipe_list=0x7f040014;
         public static final int recipe_material=0x7f040006;
         public static final int recipe_note=0x7f040009;
         public static final int recipe_photo=0x7f04000b;
@@ -84,11 +85,11 @@ public final class R {
         public static final int recipe_steps=0x7f040007;
         public static final int recipe_tags=0x7f04000a;
         public static final int recipe_title=0x7f040005;
-        public static final int recipe_viewer=0x7f040015;
+        public static final int recipe_viewer=0x7f040016;
         public static final int recipelist_nomatchingrecipe=0x7f04000d;
         public static final int recipelist_norecipe=0x7f04000c;
         public static final int save=0x7f04000f;
-        public static final int tag_list=0x7f040016;
+        public static final int tag_list=0x7f040017;
         public static final int taglist_notag=0x7f04000e;
     }
     public static final class style {

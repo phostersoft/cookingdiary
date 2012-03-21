@@ -19,6 +19,7 @@
 	<string name="save">Save</string>
 	<string name="discard">Discard</string>
 	<string name="recipe_error_notitle">Recipe title cannot be empty!</string>
+	<string name="recipe_error_tags">You\'ve entered invalid tags. Try \"cake,chocolate,yummy\"</string>
 	<string name="add_photo">Add photo</string>
 	<string name="recipe_list">Recipe List</string>
 	<string name="recipe_editor">Edit Recipe</string>
