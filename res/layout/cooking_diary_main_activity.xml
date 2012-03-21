@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/mainViewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:onClick="showRecipeList"
+        android:text="@string/main_recipelist" />
+    
+    <Button
+        android:id="@+id/button1"
+        style="@style/mainViewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dip"
+        android:onClick="createNewRecipe"
+        android:text="@string/main_newrecipe" />
+    
+    <Button
+        android:id="@+id/button3"
+        style="@style/mainViewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:onClick="showTagList"
+        android:text="@string/main_taglist" />
+
+</RelativeLayout>

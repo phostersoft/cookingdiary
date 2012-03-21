@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, CookingDiaryMainActivity!</string>
+    <string name="app_name">Cooking Diary</string>
+	<string name="main_newrecipe">New recipe</string>
+	<string name="main_recipelist">Recipe list</string>
+	<string name="main_taglist">Tag list</string>
+	<string name="recipe_title">Title</string>
+	<string name="recipe_material">Material</string>
+	<string name="recipe_steps">Steps</string>
+	<string name="recipe_source">Source</string>
+	<string name="recipe_note">Note</string>
+	<string name="recipe_tags">Tags</string>
+	<string name="recipe_photo">Photo</string>
+	<string name="recipelist_norecipe">There\'s no recipe now</string>
+	<string name="recipelist_nomatchingrecipe">There\'s no matching recipe</string>
+	<string name="taglist_notag">There\'s no tag now</string>
+	<string name="save">Save</string>
+	<string name="discard">Discard</string>
+	<string name="recipe_error_notitle">Recipe title cannot be empty!</string>
+	<string name="add_photo">Add photo</string>
+	<string name="recipe_list">Recipe List</string>
+	<string name="recipe_editor">Edit Recipe</string>
+	<string name="recipe_viewer">View Recipe</string>
+	<string name="tag_list">Tag List</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TableLayout
+	    android:id="@+id/tableLayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+	
+	    <TextView
+	        android:id="@+id/titleTextView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        style="@style/recipeTitle" />
+	
+	    <ImageView
+	        android:id="@+id/photoView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+	
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	
+	        <TextView
+	            android:id="@+id/textView2"
+	            style="@style/recipeSectionTitle"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/recipe_material" />
+	
+	        <TextView
+	            android:id="@+id/materialTextView"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	
+	        <TextView
+	            android:id="@+id/textView3"
+	            style="@style/recipeSectionTitle"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/recipe_steps" />
+	
+	        <TextView
+	            android:id="@+id/stepsTextView"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	    </LinearLayout>
+	
+	    <LinearLayout
+	        android:id="@+id/tableRow4"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	
+	        <TextView
+	            android:id="@+id/textView4"
+	            style="@style/recipeSectionTitle"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/recipe_source" />
+	
+	        <TextView
+	            android:id="@+id/sourceTextView"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	
+	        <TextView
+	            android:id="@+id/textView5"
+	            style="@style/recipeSectionTitle"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/recipe_note" />
+	
+	        <TextView
+	            android:id="@+id/noteTextView"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	    </LinearLayout>
+	    	
+	    <LinearLayout
+	        android:id="@+id/tableRow5"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+	
+	        <TextView
+	            android:id="@+id/textView6"
+	            style="@style/recipeSectionTitle"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/recipe_tags" />
+	
+	        <TextView
+	            android:id="@+id/tagsTextView"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content" />
+	    </LinearLayout>
+	
+	</TableLayout>
+</ScrollView>
